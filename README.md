@@ -81,7 +81,7 @@ $ npm start
 
 ## Support
 
-- Contact Me: [Sunday, Ishaya](oussama24bessaad@gmail.com)
+- Contact Me: [Oussama Bessaad](oussama24bessaad@gmail.com)
 
 ## May the source codes be with you::: +-_-+
 
