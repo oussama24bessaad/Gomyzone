@@ -34,7 +34,7 @@ function App() {
         <header className="row">
           <div>
             <Link className="brand" to="/">
-            Gomyzone<img src='%PUBLIC_URL%/pngegg.png' height={40} width={128}/>
+            Gomyzone<img src='./pngegg.png' height={40} width={128}/>
             </Link>
           </div>
           <div>
