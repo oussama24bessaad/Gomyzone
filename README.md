@@ -83,11 +83,11 @@ $ npm start
 
 - Contact Me: [Oussama Bessaad](oussama24bessaad@gmail.com)
 
-## May the source codes be with you::: +-_-+
+## GITHUB
 
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/oussama24bessaad/Gomyzone.git
-git push -u origin main
+- git init
+- git add .
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/oussama24bessaad/Gomyzone.git
+- git push -u origin main
