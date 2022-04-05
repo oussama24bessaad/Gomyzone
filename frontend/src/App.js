@@ -11,6 +11,7 @@ import OrderScreen from './screens/OrderScreen';
 import PaymentMethodScreen from './screens/PaymentMethodScreen';
 import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import ProductListScreen from './screens/ProductListScreen';
+import UserListScreen from './screens/UserListScreen';
 import ProductScreen from './screens/ProductScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import RegisterScreen from './screens/RegisterScreen';
@@ -34,7 +35,7 @@ function App() {
         <header className="row">
           <div>
             <Link className="brand" to="/">
-            Gomyzone
+            Gomyzone<img src='./pngegg.png' height={40} width={128}/>
             </Link>
           </div>
           <div>
@@ -115,7 +116,12 @@ function App() {
           <AdminRoute
             path="/orderlist"
             component={OrderListScreen}
+          >
+            <AdminRoute
+            path="/userlist"
+            component={UserListScreen}
           ></AdminRoute>
+          </AdminRoute>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer className="row center">@Oussama Gomyzone 2022 All right reserved</footer>
